@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StockCharts</string>
+    <string name="search">Search</string>
+    <string name="charts">Charts</string>
+    <string name="code_url">https://finance.naver.com/sise/entryJongmok.nhn?&amp;page=</string>
+
+</resources>
