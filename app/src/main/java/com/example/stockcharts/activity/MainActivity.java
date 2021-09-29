@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
+    public static BottomNavigationView navView;
+    public static String code = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
 
         // Add bottom navigation menu listener
-        BottomNavigationView navView = (BottomNavigationView)findViewById(R.id.bottommenu);
+        navView = (BottomNavigationView)findViewById(R.id.bottommenu);
         navView.setOnItemSelectedListener(new BottomNav(fragmentManager));
         navView.setSelectedItemId(R.id.navigation_search);
 

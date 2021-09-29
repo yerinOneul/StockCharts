@@ -3,5 +3,6 @@
     <string name="search">Search</string>
     <string name="charts">Charts</string>
     <string name="code_url">https://finance.naver.com/sise/entryJongmok.nhn?&amp;page=</string>
-
+    <string name="query_url">https://finance.naver.com/search/searchList.naver?query=</string>
+    <string name="sise_day_url">https://finance.naver.com/item/sise_day.naver?code=</string>
 </resources>

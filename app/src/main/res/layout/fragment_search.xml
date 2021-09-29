@@ -5,18 +5,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/text_search"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:text = "SEARCH" />
+   <androidx.appcompat.widget.SearchView
+       android:id="@+id/searchView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:iconifiedByDefault="false"
+       app:queryHint="종목명을 입력하세요."/>
 
-    <Button
-        android:id="@+id/search_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Search"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
